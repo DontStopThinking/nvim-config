@@ -1,3 +1,5 @@
+-- Reference: https://dev.to/vonheikemen/neovim-using-vim-plug-in-lua-3oom
+
 local Plug = vim.fn['plug#']
 
 vim.call('plug#begin', vim.fn.stdpath('config') .. '/plugged')
